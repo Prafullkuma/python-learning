@@ -18,6 +18,8 @@ print(12342//3)
 
 myNAme = name + " " +"Data science"
 
+print("----------------------- comparison operator -------------")
+
 print(myNAme)
 print(41 !=42)
 print(41 == 42)
@@ -27,12 +29,17 @@ print(41 >=42)
 print(41 <=42)
 
 
-y = True
-x = False
 
+print("----------------------- Logincal operator -------------")
+
+x = False
+y = True
+z= True
 
 print(not y,"Not operator")
 print(x and y, "AND Operator")
-print(y or y," OR PERATOR")
+print(False or y," OR PERATOR")
+
+print(y and z , "and operator")
 
 
