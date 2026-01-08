@@ -65,7 +65,7 @@ print(multiline)
 
 print(" ------- Escaping special character ---------- ")
 
-sentence = 'I\'m back at work!\t hey \n \n Good moring \\located'
+sentence = 'I\'m back at work!\t hey \n \n Good moring located'
+fimga = "I am figma"
 
 print(sentence)
-
