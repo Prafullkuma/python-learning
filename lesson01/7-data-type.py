@@ -71,4 +71,27 @@ print(complexType1.imag) # return in float values
 
 print("----- squence type ------")
 
+print("----- LIST type (Array)  ------")
 
+myList = ["One", "two", 213, False, 213.22]
+
+
+print(myList[2]) # return single number 
+print(myList[1:5]) # return new list 
+print(myList[:]) # copying everything or in JS ... spread operator)
+
+myList1 = myList # just copy the reference if change one list it will affect to other to 
+
+myList1[0] = "Figma"
+myList1.append(4) # add at last
+ 
+print(myList1, myList,"changes in the both")
+
+# creating (shollow copy)
+myList3 = myList[:]  # this will create a new list 
+
+print(myList3)
+
+
+print(myList3 * 3)
+print([myList3] * 3) # create 2 dimentional array [[1,3,2,2],[2,2,2,2]]
