@@ -95,3 +95,31 @@ print(myList3)
 
 print(myList3 * 3)
 print([myList3] * 3) # create 2 dimentional array [[1,3,2,2],[2,2,2,2]]
+
+
+print("----- Tuples type (immutable)  ------")
+# basically use for fixed data like ,coordinates, db records (tuple are faster and memory efficient)
+empty_tuple = ()
+
+coordinates = (10,20,30)
+
+
+coordinates2= 10.2,30.3,20
+
+mixed_tuple =(2,"Prafull", "HELLOE", False)
+
+fileName="Image.pgn"
+if fileName.endswith((".pgn",".gif")):
+    print("I am working")
+else:
+    print("I am not working")
+
+print(empty_tuple, coordinates, coordinates2)
+
+# Tuples can be use in the dictionary 
+location_dict = {("New york","DATA"):"Big Apple"}
+print(location_dict[("New york","DATA")])
+
+a, b = 10, 20
+a, b = b, a
+print(a,b) 
