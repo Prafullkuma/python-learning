@@ -75,8 +75,13 @@ print("----- LIST type (Array)  ------")
 
 myList = ["One", "two", 213, False, 213.22]
 
+users= ["Prafull","Revan"]
+
+print("Prafull" in users)
+
 
 print(myList[2]) # return single number 
+print(myList[-1])
 print(myList[1:5]) # return new list 
 print(myList[:]) # copying everything or in JS ... spread operator)
 
