@@ -1,4 +1,4 @@
-# python-learning
+# Python-learning
 
 ## Data-type
 
