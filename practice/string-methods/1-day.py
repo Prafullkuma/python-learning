@@ -1,8 +1,9 @@
 
 # strip
+# Take parameter as character
+# return new string 
 
 txt = " banana  "
-
 
 txt2= ",,,,,......posps.....banan.......ssslss"
 
@@ -23,7 +24,6 @@ print(txt2.lstrip()) #output - ,,,,,......posps.....banan.......ssslss
 print(txt2.lstrip(",.pos")) # output - banan.......ssslss
 print(txt3.lstrip(",.")) # output - allkas.....banana.......ssslss
 print(txt4.lstrip("ps.")) #output -  helow...qqqqqqq
-
 
 
 # rstrip()
